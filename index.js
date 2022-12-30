@@ -1,5 +1,6 @@
 import { createElement } from "./utils/createElement.js"
-
+import "./basket.js"
+import "./logics.js"
 
 const root = document.getElementById(`root`)
 
@@ -16,14 +17,16 @@ const logo = createElement(`div`, {
 heder.appendChild(logo)
 
 
-const input = createElement(`input`, {
-    className: `input`,
-    type: `text`
-})
+const input = document.getElementById(`icons`)
 heder.appendChild(input)
 
+ 
 
-const basket = createElement(`div`, {
-    className: `basket`
-})
-heder.appendChild(basket)
+
+  
+
+
+
+
+  
+
